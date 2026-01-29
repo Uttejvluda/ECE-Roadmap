@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Role Details | ECE Roadmap</title>
+  <link rel="stylesheet" href="css/style.css"/>
+</head>
+<body>
+
+  <header class="header">
+    <div class="container">
+      <a class="backBtn" href="index.html">⬅ Back</a>
+      <h1 id="roleTitle">Role</h1>
+      <p id="roleSubtitle">Role description here...</p>
+    </div>
+  </header>
+
+  <main class="container">
+
+    <section class="tagsBox">
+      <span class="tag" id="roleDomain"></span>
+      <span class="tag" id="roleSalary"></span>
+      <span class="tag" id="roleCompanies"></span>
+    </section>
+
+    <section class="tabButtons">
+      <button class="tabBtn active" data-tab="basic">Basic (0–1 Years)</button>
+      <button class="tabBtn" data-tab="intermediate">Intermediate (2–4 Years)</button>
+      <button class="tabBtn" data-tab="expert">Expert (5–12 Years)</button>
+    </section>
+
+    <section id="tabContent" class="tabContent"></section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>ECE Roadmap | Learn step-by-step 📈</p>
+    </div>
+  </footer>
+
+  <script src="js/data.js"></script>
+  <script src="js/role.js"></script>
+</body>
+</html>
